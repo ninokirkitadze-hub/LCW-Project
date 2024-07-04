@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  align-items: center;
+}
+.nav_list {
+  display: flex;
+  gap: 30px;
+  float: left;
+}
+.logo {
+  width: 232px;
+  display: flex;
+}
+.products_h1 {
+  background-color: rgb(116, 174, 240);
+  color: #fff;
+  padding: 50px;
+}
+
+h2 {
+  color: gray;
+  display: flex;
+  justify-content: center;
+}
+.product_container {
+  display: flex;
+  justify-content: space-between;
+}
+.product_card {
+  width: 200px;
+  box-shadow: 25;
+  margin-top: 20px;
+  justify-content: center;
+  box-shadow: 5px 5px 5px 5px #eae7e7;
+  border-radius: 4px;
+}
+.product_card img {
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.box_p {
+  font-size: 14px;
+  line-height: 18px;
+  margin: 4px 0;
+  text-align: center;
+}
+.button_div {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 5px;
+}
